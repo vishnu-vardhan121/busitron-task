@@ -47,7 +47,7 @@ body {
 
 .heading{
     font-weight:900;
-    font-size: 30px;
+    font-size: 33px;
     color: rgb(233, 60, 60);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -77,7 +77,7 @@ body {
 }
   .list span {
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     transition: color 0.3s ease;
   }
   
@@ -87,7 +87,7 @@ body {
   
   @media (max-width: 480px) {
     .heading {
-      font-size: 20px;
+      font-size: 30px;
       margin-bottom: 8px;
     }
   .list{
@@ -95,6 +95,7 @@ body {
   }
   .hamburger {
     display: inline;
+    font-size: 25px;
   }
     .list span {
       font-size: 16px;
