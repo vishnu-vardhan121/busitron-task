@@ -85,28 +85,6 @@ body {
     color: #ff9800;
   }
   
-  @media (max-width: 768px) {
-    .nav {
-      padding: 10px;
-      align-items: flex-start;
-    }
-  
-    .heading {
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-     
-    .list span:hover {
-      background-color: #444;
-      color: #ff9800;
-    }
-  
- 
-    .hamburger {
-      display: none;
-    }
-  }
-  
   @media (max-width: 480px) {
     .heading {
       font-size: 20px;
