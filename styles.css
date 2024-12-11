@@ -51,3 +51,7 @@ body {
     color: rgb(233, 60, 60);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.feed-item h2{
+    padding-left: 6px;
+}
