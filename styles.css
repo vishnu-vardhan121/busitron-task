@@ -47,7 +47,8 @@ body {
 
 .heading{
     font-weight:900;
-    font-size: 30px;text-align: center;
+    font-size: 30px;
+    text-align: center;
     color: rgb(233, 60, 60);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -55,3 +56,72 @@ body {
 .feed-item h2{
     padding-left: 6px;
 }
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .list {
+    display: flex;
+    gap: 20px;
+  }
+  .hamburger{
+    display: none;
+}
+  .list span {
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .list span:hover {
+    color: #ff9800;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      padding: 10px;
+      align-items: flex-start;
+    }
+  
+    .heading {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+     
+    .list span:hover {
+      background-color: #444;
+      color: #ff9800;
+    }
+  
+ 
+    .hamburger {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+  .list{
+    display: none;
+  }
+  .hamburger {
+    display: inline;
+  }
+    .list span {
+      font-size: 16px;
+      padding: 8px 0;
+    }
+  }
+  
